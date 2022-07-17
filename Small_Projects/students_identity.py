@@ -23,9 +23,6 @@ def function():
         function()
     else:
         pass 
-
-
-
 function()
     
 
