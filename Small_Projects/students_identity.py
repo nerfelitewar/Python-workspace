@@ -19,7 +19,7 @@ def function():
     print("Thank you")
 
     again= input('Again? Type (yes/no) y/n-')
-    if again == 'y':
+    if again == 'y' or 'Y':
         function()
     else:
         pass 
