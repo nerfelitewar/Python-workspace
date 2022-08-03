@@ -1,1 +1,2 @@
-#reverse an Array or List without using reverse=True function
+#reverse a List without using reverse=True function
+
