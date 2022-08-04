@@ -7,21 +7,23 @@ def MainGame():
     print('You have 5 chance to guess. Good Luck!')
     Num=random.randint(1,100)
     for i in range(0,5):
-        User=input('Enter your guessed number-')
+        User=int(input('Enter your guessed number-'))
         if User==Num:
             print('Correct')
         else:
             print('Wrong')
         pass 
-    print('Correct answer-',Num)
+    print('The Correct answer is-',Num)
 
     Again=input('Want to play again Yes(Y)/No(N)-')
-    if Again=='y'or'Y'or'Yes'or'yes':
+    if Again=='y':
+        MainGame()
+    elif Again=='Y':
         MainGame()
     else:
         print('**Thank you for playing!\nGoodbye! :)')
-        exit()
-
+        quit()
+MainGame()
 
 
 

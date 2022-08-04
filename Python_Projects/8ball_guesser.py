@@ -24,11 +24,13 @@ def function():
 
     playAgain = input('Want to play again? y/n: ')
 
-    if playAgain == 'y' or 'Y' or 'Yes' or 'yes':
+    if playAgain == 'y':
         function()
-    else:
+    elif playAgain=='Y':
+        function()
+    else:  #else not working why?? WHYY :(
         print('Bye👋 ')
-        exit()
+        exit()        
 
 
 function()
