@@ -31,12 +31,12 @@ print('1.(India)INR\n''2.(USA)USD\n''3.(UAE)AD\n''4.(RUSSIA)ROUBLE\n''5.(JAPAN)Y
 UserCon=int(input('Enter your conversion type-'))
 if UserCon<=0:
     print('Error pls retry')
-elif UserCon==1 and User==1:
-    print(InrC+0)
-elif UserCon==1 and User==2:
-    print(InrC/78,"USD") #pending 
+if UserCon==1 and User==1:
+    print(InrC+0,'INR')
+if UserCon==1 and User==2:
+    print(InrC//78,"USD") #not working why? IDK 
+if UserCon==1 and User==3: #not working too idk :/
+    print(InrC*20,'AED')
 
-### PENDING PROJECT ~~ 
-
-## TALKING A BREAK FROM PYTHON GTG GRIND ON WEB-DEV AND JS 
+#PENDING PROJECT 
 
