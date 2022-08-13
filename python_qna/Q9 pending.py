@@ -8,7 +8,7 @@ S='string'
 x=list(S)
 print(x)
 x.sort(reverse=True)
-print(x)
+print(x) #pending
 
 
 #approach 2 
