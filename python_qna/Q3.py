@@ -6,3 +6,4 @@ Examples (Input ==> Output):
 "I love arrays they are my favorite" ==> ["I", "love", "arrays","they", "are", "my", "favorite"] """
 
 S="I love arrays they are my favorite"
+print(S.split())
