@@ -1,6 +1,6 @@
 #converts word to num form  
 NumLst=[0,1,2,3,4,5,6,7,8,9]
-User=input('Enter number in word form\n')
+User=input('Enter number in word form-\n')
 UserLst=User.split()
 print(UserLst)
 Output=[]
@@ -26,6 +26,11 @@ for i in UserLst:
         Output.append(NumLst[8])
     if i=='nine':
         Output.append(NumLst[9])
-print(Output)
+
+for i in Output:
+    print(i,end='')
+
+
+
  
  
