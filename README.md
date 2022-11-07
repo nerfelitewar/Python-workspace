@@ -1,14 +1,13 @@
 
 <div align="center">
-      <h1> <img src="[https://en.wikipedia.org/wiki/Python_%28programming_language%29](https://www.thewindowsclub.com/wp-content/uploads/2020/11/python-logo.png?ezimgfmt=ng:webp/ngcb191)" width="80px"><br/>Python-Workspace</h1>
-     </div>
+      <h1>Python-Workspace </h1>
+ </div>
 
 
 # Description
-This is my python workspace.
-This workspace keeps a record of my files :)
+This is a python workspace where new programmers can come and see simple and nice projects written in python.
 
-`still learning...`
+ <img src="http://clipart-library.com/images/kcMnoEjXi.png" width="90px">
 
 # Language Used
 <div align="center">
