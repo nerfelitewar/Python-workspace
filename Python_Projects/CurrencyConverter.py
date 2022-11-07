@@ -94,7 +94,7 @@ if User==5 and UserCon==4:
 if User==5 and UserCon==5:
     print(YenC,'YEN')
 
-
+### LOGIC IS CORRECT BUT NEED TO FIX CURRENCY CONVERSION THING
 
 
 
