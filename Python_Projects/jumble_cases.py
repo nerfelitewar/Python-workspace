@@ -12,3 +12,20 @@ def jumble(s):
   return ''.join(r)
 
 print(jumble(input("Enter your text- ")))
+
+###OR 
+
+def jumble(s):
+  r = []
+  n = 0
+  for i in s:
+    if n == 0:
+        i = i.upper()
+        n = 1
+    else:
+        i = i.lower()
+        n = 0
+    r.append(i)
+  return ''.join(r)
+
+print(jumble("Hello world!"))
