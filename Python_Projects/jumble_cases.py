@@ -1,5 +1,5 @@
+###APPROACH 1
 methods = str.upper, str.lower
-
 def jumble(s):
   r = []
   n = 0
@@ -13,7 +13,7 @@ def jumble(s):
 
 print(jumble(input("Enter your text- ")))
 
-###OR 
+###APPROACH 2 
 
 def jumble(s):
   r = []
@@ -29,3 +29,24 @@ def jumble(s):
   return ''.join(r)
 
 print(jumble("Hello world!"))
+
+###APPROACH 3
+
+s='This is string'
+x=s.lower()
+l=list(x)
+r=[]
+n=""
+for i in range(len(l)):
+    for j in l:
+        if i%2==0:
+            j=j.upper()
+            i+=1
+        else:
+            j=j.lower()
+            i-=1
+        r.append(j)
+    break
+print(n.join(r))
+
+
